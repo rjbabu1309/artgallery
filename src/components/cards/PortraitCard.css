@@ -1,0 +1,27 @@
+.card-imgs{
+    /* margin: 10%; */
+    margin: 5%;
+    width: 90%;
+    overflow: hidden;
+    /* width: 100px; */
+    background-color: tomato;
+}
+.imgs:hover{
+    transition: transform .8s;
+    transition-timing-function: ease-out;
+    transform: scale(1.2);
+}
+.card-custom{
+    overflow: hidden;
+}
+.card-custom:hover{
+    position: relative;
+    top: -6px;
+}
+/* .txt{
+    color: yellowgreen;
+    background-color: cadetblue;
+}
+.txt:hover{
+    color: black;
+} */

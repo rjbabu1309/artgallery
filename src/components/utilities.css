@@ -1,0 +1,37 @@
+.logo{
+    height: 60px;
+}
+
+.customContainer{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mg-tb{
+    margin: 10px auto;
+}
+
+.font96{
+    font-size: 96px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+span:nth-child(1){
+    font-size: 28px;
+}
+span:nth-child(2){
+    font-size: 56px;
+}
+.animation{
+    width: 40%;
+}
+.animation :hover{
+    transition: transform .8s;
+    transition-timing-function: ease-out;
+    transform: scale(1.2);
+}
