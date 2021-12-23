@@ -14,8 +14,8 @@ const Header = () => {
       <Nav.Link as={Link} to='gallery'>Gallery</Nav.Link>
       <Nav.Link as={Link} to="/pricing">Pricing</Nav.Link>
       <Nav.Link as={Link} to='/order'>Order Now</Nav.Link>
-      {/* <Nav.Link as={Link} to='/about'>About</Nav.Link> */}
       <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
+      <Nav.Link href='https://www.instagram.com/alleam_20/' target='_blank'>Instagram</Nav.Link>
       {/* <Nav.Link eventKey={2} href="#memes">
         Dank memes
       </Nav.Link> */}
