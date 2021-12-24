@@ -11,6 +11,7 @@ import Layout from "./components/Layout";
 import Home from './components/pages/Home';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
+import Pricing from './components/pages/Pricing';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
           <Route path="gallery" element={<Gallery />} />
+          <Route path="pricing" element={<Pricing />}/>
         </Route>
       </Routes>
     </BrowserRouter>

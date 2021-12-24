@@ -6,7 +6,7 @@ const Header = () => {
     <Navbar sticky='top' collapseOnSelect expand="lg" bg="white" variant="light" >
   <Container>
   {/* <Navbar.Brand ><Link to='/'><img className='logo' src="logo.jpg" alt="" /></Link></Navbar.Brand> */}
-  <Navbar.Brand href='/'> <h1  className="font-Finger-Paint font96">Ella Mae<br/>Lumibao</h1></Navbar.Brand>
+  <Navbar.Brand as={Link} to='/' > <h1  className="font-Finger-Paint font96">Ella Mae<br/>Lumibao</h1></Navbar.Brand>
  
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
