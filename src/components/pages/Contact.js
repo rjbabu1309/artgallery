@@ -4,9 +4,8 @@ import { Col, Form, Row } from "react-bootstrap";
 const Contact = () => {
     return (
         <div className='customContainer' style={{ display: "flex", justifyContent: "space-around" }}>
-            <img className='animation' style={{ width: "40%" }} src="art.jpg" alt="" />
             <div style={{ width: "40%",}}>
-                <h2>Get in Touch</h2>
+                <h3>Get in Touch, have exiting quotes!</h3>
                 <Form>
                     <Row className="mb-3">
                         <h5>Name</h5>
