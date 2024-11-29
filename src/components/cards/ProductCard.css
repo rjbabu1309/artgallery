@@ -2,8 +2,10 @@
     min-width: 130px;
     min-height: 100px;
     width: 30%;
+    max-height: 200px;
     float: left;
     position: relative;
+    object-fit: scale-down;
 }
 .box{
     display: flex;
@@ -21,7 +23,4 @@
     padding: 5px 20px;
     background-color: black;
     color: white;
-}
-.btn:hover{
-    color: lime;
 }

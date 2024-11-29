@@ -2,6 +2,7 @@ import { Outlet } from "react-router";
 // import Footer from "./partials/footer/Footer";
 import Header from "./partials/header/Header";
 
+
 const Layout = () => {
     return(
         <>

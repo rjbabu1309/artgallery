@@ -2,6 +2,25 @@
     margin: 0;padding: 0;
 }
 
+.navbar {
+    transition: all 0.3s ease-in-out;
+    padding: 1rem 1rem;
+  }
+  
+  .navbar.scrolled {
+    padding: 0.5rem 1rem; /* Reduce padding */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    transition: font-size 0.3s ease-in-out;
+  }
+  
+  .navbar.scrolled .navbar-brand {
+    font-size: 1.2rem; /* Scale down brand font */
+  }
+  
+
 .custom{
     height: 70px;
     text-transform: uppercase;
