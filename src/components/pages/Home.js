@@ -9,7 +9,7 @@ const Home = () => {
             <div className='contant'>
                 <h3>Hey! Welcome to my portfolio.</h3>
                 <h6>Transform your cherished memories into stunning sketches.<br /> </h6>
-                <h4><span>Get yours or surprise your</span> <span>loved ones!</span></h4>
+                <h4><span>Get yours or surprise your</span> <span>love ones!</span></h4>
                 <p>Contact us to have a personalized quote!</p>
             </div>
         </Container>

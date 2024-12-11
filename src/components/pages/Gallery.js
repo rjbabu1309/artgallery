@@ -6,17 +6,16 @@ const ImageArray= [
     "art_2.jpg",
     "art_5.jpg",
     "art_3.jpg",
-    // "art_4.jpg",
-    "art_13.jpg",
+    "art_4.jpg",
+    
+    // "art_13.jpg",
     "art_8.jpg",
- 
-    "art_9.jpg",
-    "art_10.jpg",
+    // "art_9.jpg",
+    // "art_10.jpg",
     "art_11.jpg",
     "art_6.jpg",
     "art_7.jpg",
-    "art_12.jpg",
-    
+    // "art_12.jpg",
     
 ];
 
